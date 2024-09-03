@@ -4,6 +4,8 @@ import React, { useRef, useState } from 'react';
 import ModelView from './ModelView';
 import { yellowImg } from '../utils';
 import * as THREE from 'three';
+import { View } from '@react-three/drei';
+import { Canvas } from '@react-three/fiber';
 
 const Model = () => {
     const [size, setSize] = useState('small');
@@ -50,6 +52,7 @@ const Model = () => {
                     item={model}
                     size={size}
                 />
+
                 <ModelView
                     index = {2}
                     groupeRef={large}
@@ -59,7 +62,28 @@ const Model = () => {
                     item={model}
                     size={size}
                 />
+
+                <Canvas className='w-full h-full'
+                    style={{
+                        position: 'fixed',
+                        top: 0,
+                        bottom: 0,
+                        left: 0,
+                        right: 0,
+                        overflow: 'hidden'
+                    }}
+                    eventSource={document.getElementById('root')}
+                >
+                    <View.Port />
+                </Canvas>               
                 </div>
+            
+            <div className="mx-auto w-full">
+                <p className='text-sm font-light text-center mb-5'>
+                    {model.title}
+                </p>
+            </div>
+
             </div>
         </div>
     </section>
