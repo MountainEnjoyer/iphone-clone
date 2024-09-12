@@ -1,7 +1,22 @@
 import React from 'react'
 import { chipImg } from '../utils'
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
 
 const HowItWorks = () => {
+    useGSAP(() => {
+        gsap.from('#chip', {
+            scrollTrigger: {
+                trigger: '#chip',
+                start: '20% bottom',
+            },
+            opacity: 0,
+            scale: 2,
+            duration : 2,
+            ease: 'power2.inOut'
+        })
+    }, [])
+
   return (
     <section className='common-padding'>
         <div className="screen-max-width">
