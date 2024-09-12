@@ -7,7 +7,7 @@ import * as THREE from 'three';
 import Loader from './Loader';
 
 
-const ModelView = ({index, groupRef, gsapType, controlRef, setRotationSize, size, item}) => {
+const ModelView = ({index, groupRef, gsapType, controlRef, setRotationState, size, item}) => {
   return (
     <View index={index} id={gsapType} className={`w-full h-full absolute ${index === 2 ? 'right-[-100%]' : ''} `}>
 
