@@ -1,6 +1,13 @@
-#Iphone Clone
+# 📱 Iphone Clone
 
-Hi there !<br/>
-Welcome to this Repository, here sits the code of this site (https://iphone.zakary.xyz).
-This is a replica of the Iphone 13's site. I built it by following this video: (the video)
+### Hi there !
+Welcome to this Repository, it contain the code of a clone of the iPhone 15 pro site with its fancy animations and 3D models. If you're curious, you can visit the live version  [here](https://iphone.zakary.xyz).<br/>
+
+I built it by following [this tutorial](youtube.com). It uses ViteJS, React, TailWindCSS and Gsap. 
+
+---
+
+## 🖥️ Some Screenshots
+
+
 
