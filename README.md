@@ -8,8 +8,8 @@ I built it by following [this tutorial](youtube.com). It uses ViteJS, React, Tai
 ---
 
 ## 🖥️ Some Screenshots
-![](https://github.com/MountainEnjoyer/iphone-clone/tree/master/Readme/HERO.png)
-![](https://github.com/MountainEnjoyer/iphone-clone/tree/master/Readme/ANIMATION.png)
-![](https://github.com/MountainEnjoyer/iphone-clone/tree/master/Readme/3d.png)
+![](https://github.com/MountainEnjoyer/iphone-clone/blob/master/Readme/HERO.png)
+![](https://github.com/MountainEnjoyer/iphone-clone/blob/master/Readme/ANIMATION.png)
+![](https://github.com/MountainEnjoyer/iphone-clone/blob/master/Readme/3d.png)
 
 
